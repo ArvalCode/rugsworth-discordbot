@@ -6,7 +6,7 @@ use serenity::Client;
 use events::Handler;
 
 
-const TOKEN: &str = "MTA5MjIxNjQ1MDE3NDk1OTY2Nw.GRg9-3.gOV0DrAr4DIYKIySDbP3sYh4vrCL7m2wxQgAdc";
+const TOKEN: &str = ""; //TOKEN
 
 fn main() {
     let mut client = Client::new(TOKEN, Handler)
